@@ -4,12 +4,15 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("models");
-    
-    // Copy `css/fonts/` to `_site/css/fonts/`
-    // Keeps the same directory structure.
-    // eleventyConfig.addPassthroughCopy("css/fonts");
-    // Copy any .jpg file to `_site`, via Glob pattern
-    // Keeps the same directory structure.
-    // eleventyConfig.addPassthroughCopy("**/*.jpg");	// Configure Eleventy
 
+    // HtmlBasePlugin    
+    const { HtmlBasePlugin } = await import("@11ty/eleventy");
+    eleventyConfig.addPlugin(HtmlBasePlugin);
+	
+};
+
+
+module.exports.config = {
+    // Set path prefix
+    pathPrefix: "/livetaste/",
 };
