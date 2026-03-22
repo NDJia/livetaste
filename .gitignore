@@ -1,0 +1,6 @@
+# ignore buffer files
+*~
+\#*#
+
+# ignore node_modules dependencies
+node_modules/
