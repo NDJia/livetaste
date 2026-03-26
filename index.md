@@ -3,16 +3,16 @@ layout: 3d-view.njk
 title: LiveTaste
 ---
 
-<model-viewer camera-controls touch-action="pan-y" src="{{ '/models/Sushi.glb' | url }}"></model-viewer>
-<model-viewer camera-controls touch-action="pan-y" src="{{ '/models/doughnut.glb' | url }}"></model-viewer>
+<div id="model-carosel">
+<model-viewer src="{{ '/models/Sushi.glb' | url }}"></model-viewer>
+<model-viewer src="{{ '/models/doughnut.glb' | url }}"></model-viewer>
+</div>
 
 # What is our mission? 
 
 LiveTaste strives to provide an effective alternative to the traditional means of dieting. No more do you have to consider the negatives of consuming your favorite delectable treats during a dieting period. Instead you can gluttonously indulge without the worry of weight gain or concession in flavour or texture.
 
-# Who are we? 
 
-	Founded in 2019, LiveTaste is determined to serve the people, providing dietary aid devices with the objective of bringing upon a healthy society, and ending the global obesity crisis. We do this because a fit society is a triumphant one.
 	
 # How has LiveTaste achieved such an outlandish goal? 
 

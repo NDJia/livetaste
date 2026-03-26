@@ -1,3 +1,6 @@
+### Local only image references ##
+palette.png
+
 ### Text Editors ###
 # ignore emacs buffer files
 *~

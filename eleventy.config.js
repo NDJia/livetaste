@@ -1,3 +1,5 @@
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+
 module.exports = async function(eleventyConfig) {
     // Output directory: _site
     // Copy `img/` to `_site/img/`
@@ -9,7 +11,8 @@ module.exports = async function(eleventyConfig) {
     const { HtmlBasePlugin } = await import("@11ty/eleventy");
     eleventyConfig.addPlugin(HtmlBasePlugin);
 
-    
+    // EleventyNavigation plugin
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
 };
 
 
