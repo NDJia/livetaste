@@ -8,7 +8,8 @@ module.exports = async function(eleventyConfig) {
     // HtmlBasePlugin    
     const { HtmlBasePlugin } = await import("@11ty/eleventy");
     eleventyConfig.addPlugin(HtmlBasePlugin);
-	
+
+    
 };
 
 

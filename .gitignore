@@ -1,9 +1,27 @@
-# ignore buffer files
+### Text Editors ###
+# ignore emacs buffer files
 *~
-\#*#
+\#*\#
 
+# ignore vscode config files
+.vscode/
+
+# ignore vim swap files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+### Node / NPM ###
 # ignore node_modules dependencies
 node_modules/
 
+# ignore node/npm log files
+logs
+*.log
+npm-debug.log*
+
+### Eleventy ###
 # ignore the local build folder _site
 _site/

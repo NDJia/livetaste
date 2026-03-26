@@ -2,6 +2,7 @@
 layout: main.njk
 ---
 <head>
-<script src="{{ '/js/p5.min.js' | url }}">
+<script src="/js/p5.min.js"></script>
 </head>
-<canvas id="p5canvas"></canvas>
+<div id="sketch"></id>
+{{ content | safe }}
