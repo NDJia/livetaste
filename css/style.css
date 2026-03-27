@@ -1,49 +1,86 @@
+@font-face {
+  font-family: "Economica";
+  src: url("./fonts/Economica-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Economica";
+  src: url("./fonts/Economica-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Kavoon";
+  src: url("./fonts/Kavoon-Regular.woff2") format("woff2");
+}
+
 html { font-size: 1em; }
 
 body {
   margin: 0;
-  overflow-x: clip;
+  h1 {
+    font-family: "Kavoon", "Noto Sans", sans-serif;
+  }
+  p, a {
+    font-family: "Economica", Arial, sans-serif;
+  }
 }
 
 header {
+  background-color: #fac378;
+  color: white;
+  font-family: "Kavoon", "Noto Sans", sans-serif;
 }
 
 nav {
-  background-color: white;
+  background-color: #fffae4;
   position: sticky;
   top: 0;
   z-index: 10;
   ul {
     display: flex;
     padding: 0;
+    margin: 0;
     li {
-      margin: 0 10%;
+	flex-grow: 1;
       &::marker { content: none; }
     }
   }
 }
 
 #model-carosel {
+  overflow-x: clip;
+  width: 100%;
+  background-color: #9f5252;
   model-viewer {
     display: inline-block;
-    position: relative;
-   	left: 100px;
     animation: slide linear 20s infinite;
     }
 }
 
 @keyframes slide {
-  0% {left: 95%}
-  100% {left: -15%}
+  0% { transform: translateX(90vw); }
+  100% { transform: translateX(-100vw); }
+}
+
+main {
+
 }
 
 footer {
   display: flex;
   justify-content: space-between;
+  background-color: #560d0b;
+  color: white;
+  > section { flex-grow: 1; }
+  #disclaimer {
+
+  }
+
   #pagelinks {
     position: static;
     li {
-      margin: 0; text-align: center;
+      margin: 0;
       &::marker { content: none; }
     }
   }
