@@ -14,26 +14,33 @@
   src: url("./fonts/Kavoon-Regular.woff2") format("woff2");
 }
 
+:root {
+  --light-bg: #fffae4;
+  --light-accent: #fac378;
+  --dark-bg: #560d0b;
+  --dark-accent: #820400;
+  --midtone: #9f5252;
+}
+
 html { font-size: 1em; }
 
 body {
   margin: 0;
+  font-family: "Economica", Arial, sans-serif;
+  
   h1 {
     font-family: "Kavoon", "Noto Sans", sans-serif;
-  }
-  p, a {
-    font-family: "Economica", Arial, sans-serif;
-  }
+  } 
 }
 
 header {
-  background-color: #fac378;
+  background-color: var(--light-accent, #fac378);
   color: white;
   font-family: "Kavoon", "Noto Sans", sans-serif;
 }
 
 nav {
-  background-color: #fffae4;
+  background-color: var(--light-bg, #fffae4);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -51,7 +58,7 @@ nav {
 #model-carosel {
   overflow-x: clip;
   width: 100%;
-  background-color: #9f5252;
+  background-color: var(--midtone, #9f5252);
   model-viewer {
     display: inline-block;
     animation: slide linear 20s infinite;
@@ -70,8 +77,12 @@ main {
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #560d0b;
+  background-color: var(--dark-bg, #560d0b);
   color: white;
+  a {
+    color: white;
+  }
+  
   > section { flex-grow: 1; }
   #disclaimer {
 
@@ -79,13 +90,20 @@ footer {
 
   #pagelinks {
     position: static;
+    ul { margin: 0; padding: 0 }
     li {
       margin: 0;
       &::marker { content: none; }
+      a { text-decoration: none; }
     }
   }
 
   #sociallinks {
+    a {
+      display: block;
+      text-decoration: none;
+    }
+    img { width: 25px; height: auto; }
   }
 }
 

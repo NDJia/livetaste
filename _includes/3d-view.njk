@@ -1,11 +1,5 @@
----
-title: LiveTaste
----
-{% extends "parent.njk"%}
-{% block scripts %}
-<script type="module" src="/js/model-viewer.min.js">
-{% endblock %}
+{% extends "parent.njk" %}
 
-<main>
-    {{ content | safe }}
-</main>
+{% block scripts %}
+<script type="module" src="/js/model-viewer.min.js"></script>
+{% endblock %}
