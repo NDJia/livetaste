@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Nicole Rawlings",
+    "img": "https://placehold.co/200",
+    "phone": "(647) 880-6780",
+    "email": "Nicole.Rawlin@livetaste.com",
+    "title": "Web designer, Foley artist",
+    "bio": "Nicole Rawlings is a multidisciplinary creative professional leading the production and design of the LiveTaste website, in addition they assist in the production of video content, providing their expertise in sound design. They graduated from the University of Waterloo with a degree in Computer Science in 2017."
+  },
+  {
+    "name": "Catherine Hoffmann",
+    "img": "https://placehold.co/200",
+    "phone": "(437) 971-4432",
+    "email": "Hoffmann_CAT@livetaste.com",
+    "title": "Artistic director",
+    "bio": "Catherine Hoffmann leads the artistic direction for LiveTaste, providing key insights in the artistic field. Catherine oversees all in house production of 3d to 2d images. Catherine graduated from Design Academy Eindhoven in 2019, swiftly after graduation she was picked up by the LiveTaste team."
+  },
+  {
+    "name": "Reena Zulu",
+    "img": "https://placehold.co/200",
+    "phone": "(437) 831-2234",
+    "email": "Reena.Zulu@livetaste.com",
+    "title": "Social media manager, Photographer",
+    "bio": "Renna Zulu co manages the social media aspect of LiveTaste alongside Maya Freeman. Renna specializes in photography and digital design. Without the help of Renna Zulu LiveTaste would not be in the position it is. Reena graduated from Toronto Metropolitan University with a BFA in Image Arts in 2009."
+  },
+  {
+    "name": "Maya Freeman",
+    "img": "https://placehold.co/200",
+    "phone": "(419) 256-7851",
+    "email": "MayaFreeman@livetaste.com",
+    "title": "Graphic designer, Social media coordinator",
+    "bio": "Maya Freeman manages marketing and co manages LiveTaste social media profiles alongside Reena Zulu. Maya Freeman expertise in human psychology, and graphic design are exceptional assets for the LiveTaste team. Maya Freeman graduated with a PHD in Harvard’s department of psychology."
+  },
+  {
+    "name": "Darius Brown",
+    "img": "https://placehold.co/200",
+    "phone": "(647) 890-1476",
+    "email": "Brown.Darius@livetaste.com",
+    "title": "Videographer, Composer",
+    "bio": "Darius Brown manages all video production that occurs at LiveTaste. From High budget commercials to the co director position for the LiveTaste documentary. Darius' skills in music and composition have been essential for LiveTaste. Darius Brown has worked for several production companies before joining LiveTaste, (Warner Bros, Netflix, HBO)."
+  },
+  {
+    "name": "Ivan Smith",
+    "img": "https://placehold.co/200",
+    "phone": "(416) 970-2245",
+    "email": "IvanSmith@livetaste.com",
+    "title": "Website writer",
+    "bio": "Ivan Smith manages and produces all the writing for LiveTaste. His work on the LiveTaste website and news articles has been a tremendous help in the digital creation of the LiveTaste platform. Ivan graduated from the creative writing programme at University of Toronto."
+  }
+]

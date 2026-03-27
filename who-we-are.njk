@@ -1,0 +1,24 @@
+---
+layout: people.njk
+title: Who We Are
+eleventyNavigation:
+  key: Who We Are
+data: people
+---
+
+<h1>Who are we?</h1> 
+
+<p>Founded in 2019, LiveTaste is determined to serve the people, providing dietary aid devices with the objective of bringing upon a healthy society, and ending the global obesity crisis. We do this because a fit society is a triumphant one.</p>
+
+{% for p in people %}
+<section class="person">
+ <img src="{{ p.img }}">
+ <div class="person-bio">
+    <h2>{{ p.name }}</h2>
+    <p class="phone">{{ p.phone }}</p>
+    <p class="email"><span class="dummy-link">{{ p.email }}</span></p>
+    <p class="title">{{ p.title }}</p>
+    <p class="bio-text">{{ p.bio }}</p>
+  </div>
+</section>
+{% endfor %}

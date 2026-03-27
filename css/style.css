@@ -30,7 +30,10 @@ body {
   
   h1 {
     font-family: "Kavoon", "Noto Sans", sans-serif;
-  } 
+  }
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -49,47 +52,42 @@ nav {
     padding: 0;
     margin: 0;
     li {
-	flex-grow: 1;
+      margin: 0 1rem;
       &::marker { content: none; }
     }
   }
 }
 
-#model-carosel {
-  overflow-x: clip;
-  width: 100%;
-  background-color: var(--midtone, #9f5252);
-  model-viewer {
-    display: inline-block;
-    animation: slide linear 20s infinite;
-    }
-}
-
-@keyframes slide {
-  0% { transform: translateX(90vw); }
-  100% { transform: translateX(-100vw); }
-}
-
 main {
-
+  flex-grow: 1;
+  p {
+    font-size: 1.6rem;
+  }
 }
 
 footer {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: var(--dark-bg, #560d0b);
   color: white;
+  p {
+    margin: 5px 0 10px 0;
+  }
   a {
     color: white;
   }
   
-  > section { flex-grow: 1; }
+  > section { 
+    flex-grow: 1;
+    margin: 0 0.5rem;
+  }
+  
   #disclaimer {
 
   }
 
   #pagelinks {
-    position: static;
     ul { margin: 0; padding: 0 }
     li {
       margin: 0;
@@ -102,8 +100,13 @@ footer {
     a {
       display: block;
       text-decoration: none;
+      margin-bottom: 5px;
     }
-    img { width: 25px; height: auto; }
+    img {
+      width: 15px;
+      height: auto;
+      margin-right: 5px;
+    }
   }
 }
 
