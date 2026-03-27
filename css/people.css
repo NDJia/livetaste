@@ -1,16 +1,23 @@
 /* These styles are specifically used on "Who We Are" page */
 .person {
   display: grid;
-  grid-template-columns: 20% auto;
+  width: 100%;
+  max-width: 960px;
+  grid-template-columns: auto auto;
   margin-bottom: 2em;
-  
+
+  p { padding: 0; }
   h2 {
-    font-family: "Economica", "Noto Sans", sans-serif;
+    font-family: "Kavoon", "Noto Sans", sans-serif;
+    font-weight: bold;
     margin-top: 0;
   }
   img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
     justify-self: right;
-    margin-right: 1em;
+    margin: 0 1dvw 0 2dvw;
   }
   
   :is(.phone, .email, .title) {
