@@ -5,11 +5,6 @@ eleventyNavigation:
   key: Home
 ---
 
-<div id="model-carosel">
-<model-viewer src="{{ '/models/Sushi.glb' | url }}"></model-viewer>
-<model-viewer src="{{ '/models/doughnut.glb' | url }}"></model-viewer>
-</div>
-
 # What is our mission? 
 
 LiveTaste strives to provide an effective alternative to the traditional means of dieting. No more do you have to consider the negatives of consuming your favorite delectable treats during a dieting period. Instead you can gluttonously indulge without the worry of weight gain or concession in flavour or texture.

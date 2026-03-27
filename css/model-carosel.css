@@ -1,6 +1,5 @@
 #model-carosel {
   overflow-x: clip;
-  width: 100%;
   background-color: var(--midtone, #9f5252);
   display: flex;
   flex-wrap: nowrap;

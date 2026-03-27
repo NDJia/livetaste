@@ -7,3 +7,10 @@
 {% block scripts %}
 <script type="module" src="/js/model-viewer.min.js"></script>
 {% endblock %}
+
+{% block topbar %}
+<div id="model-carosel">
+<model-viewer src="{{ '/models/Sushi.glb' | url }}"></model-viewer>
+<model-viewer src="{{ '/models/doughnut.glb' | url }}"></model-viewer>
+</div>
+{% endblock %}
