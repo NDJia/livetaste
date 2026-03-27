@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
 
+    {% block styles %}
+      <!-- Additional styles go here -->
+    {% endblock %}
     {% block scripts %}
       <!-- Add scripts here -->
     {% endblock %}
-    <script type="module" src="/js/model-viewer.min.js"></script>
+
     <title>{{ title }}</title>
   </head>
   <body>
