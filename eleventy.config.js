@@ -6,6 +6,7 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("models");
+    eleventyConfig.addPassthroughCopy("fonts");
 
     // HtmlBasePlugin    
     const { HtmlBasePlugin } = await import("@11ty/eleventy");

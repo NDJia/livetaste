@@ -1,6 +1,8 @@
 ---
 layout: 3d-view.njk
 title: LiveTaste
+eleventyNavigation:
+  key: Home
 ---
 
 <div id="model-carosel">

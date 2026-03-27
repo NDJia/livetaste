@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    {% block scripts %}
+      <!-- Add scripts here -->
+    {% endblock %}
+    <script type="module" src="/js/model-viewer.min.js"></script>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <header>
+      LIVETASTE
+    </header>
+    
+    <nav>
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+    </nav>
+    
+    <main>
+      {{ content | safe }}
+    </main>
+
+    <footer>
+      <section id="disclaimer">LiveTaste is a work of satire.</section>
+      <section id="pagelinks">
+        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+      </section>
+      <section id="sociallinks">
+        <img src="" alt="tiktok">
+        <img src="" alt="instagram">
+      </section>
+    </footer>
+  </body>
+</html>
+

@@ -1,6 +1,8 @@
 ---
 layout: main.njk
 title: Who We Are
+eleventyNavigation:
+  key: Who We Are
 ---
 
 # Who are we? 
