@@ -44,8 +44,10 @@ header {
   color: white;
   width: 100%;
   font-family: "Kavoon", "Noto Sans", sans-serif;
-  display: flex;
-  align-items: center;
+  #logo {
+    display: flex;
+    align-items: center;
+  }
 
   img {
     margin: 0.5em 1em;
@@ -60,30 +62,42 @@ header {
     font-size: 1.1rem;
     letter-spacing: 2px;
   }
-}
 
-nav {
-  background-color: var(--light-bg, #fffae4);
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  padding: 1% 10%;
-  ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
+  nav {
+    background-color: var(--light-bg, #fffae4);
+    @media (max-width: 640px) { display: none; }
+    position: sticky;
+    top: 0;
+    height: 40px;
+    z-index: 10;
+    padding: 1% 10%;
+    ul {
+      display: flex;
+      padding: 0;
+      margin: 0;
     li {
       margin: 0 1rem;
       &::marker { content: none; }
+      }
+    }
+    a {
+      color: var(--dark-accent, black);
+      text-decoration: none;
+      font-family: "Kavoon", sans-serif;
+      font-size: 1.2rem;
+    }
+  
+  }
+  nav#mobilenav {
+    display: none;
+    @media (max-width: 640px) {
+      display: block;
+      position: static;
     }
   }
-  a {
-    color: var(--dark-accent, black);
-    text-decoration: none;
-    font-family: "Kavoon", sans-serif;
-    font-size: 1.2rem;
-  }
 }
+
+
 
 main {
   margin: 0 15%;
@@ -100,6 +114,7 @@ main {
 
 footer {
   padding: 1% 10% 40px;
+  @media (max-width: 640px) { padding: 0 2%; }
   display: flex;
   justify-content: space-between;
   background-color: var(--dark-bg, #560d0b);

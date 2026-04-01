@@ -14,16 +14,21 @@
   </head>
   <body>
     <header>
-      <img src="https://placehold.co/100">
-      <div class="header-text">
-        <p class="corpname">LIVETASTE</p>
-        <p class="tagline">Embrace every taste</p>
+      <div id="logo">
+        <img src="https://placehold.co/100">
+        <div class="header-text">
+            <p class="corpname">LIVETASTE</p>
+          <p class="tagline">Embrace every taste</p>
+        </div>
       </div>
-    </header>
-    
-    <nav>
+    <nav id="widenav">
       {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
     </nav>
+    <nav id="mobilenav">
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+    </nav>
+    </header>
+    
     {% block topbar %} {% endblock %}    
     <main>
       {{ content | safe }}
