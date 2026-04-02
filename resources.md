@@ -10,7 +10,7 @@ eleventyNavigation:
 
 [Obesity and overweight](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight). *World Health Organization, 2025.*
 
-[Association between screen time and overweight/obesity](https://www.sciencedirect.com/science/article/pii/S0033350625004019#:~:text=Television%20watching%20was%20also%20significantly,CI%3A%202.09%E2%80%932.79). *Science Direct, 2025*
+[Association between screen time and overweight/obesity](https://doi.org/10.1016/j.puhe.2025.105955). *Science Direct, 2025*
 
 [Risks of taking Ozempic for weight loss](https://www.baptisthealth.com/blog/health-and-wellness/risks-of-taking-ozempic-for-weight-loss). *Baptist Health, 2024.*
 
