@@ -9,7 +9,7 @@ eleventyNavigation:
 ---
 
 <video controls width="60%">
-	<src="/img/livetaste_ad.webm" type="video/webm" />
+	<source src="/img/livetaste_ad.webm" type="video/webm" />
 
 	<a href="/img.livetaste_ad.webm">Download video</a>
 </video>

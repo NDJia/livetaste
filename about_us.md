@@ -13,9 +13,12 @@ LiveTaste strives to provide an effective alternative to the traditional means o
 	
 # How has LiveTaste achieved such an outlandish goal? 
 
+
 LiveTaste relies on the SAFE manipulation of the Gustatory cortex (GC). The Gustatory cortex is responsible for the interpretation of chemical taste signals from the tongue, which are then converted to electrical signals transported by nerves. LiveTaste pads intervene in the system by providing electromagnetic surges to the temple. The surges then produce electrical signals targeted directly at the Gustatory cortex providing realistic taste stimuli.     
 
 # LiveTaste Pads 
+
+<img src="/img/livetaste_package.png" width="50%" />
 
 	LiveTaste pads are a state of the art bluetooth device, developed solely by the team at LiveTaste. The Pads themselves are small non reusable rubber devices that attach to the temple of the user. Each pad may produce enough taste (electrical signals) for a continuous use of 3 hours.
 
