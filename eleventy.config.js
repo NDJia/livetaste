@@ -20,4 +20,7 @@ module.exports = async function(eleventyConfig) {
 module.exports.config = {
     // Set path prefix
     pathPrefix: "/livetaste/",
+
+	// set markdown template engine
+	markdownTemplateEngine: "njk",
 };
