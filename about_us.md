@@ -18,7 +18,7 @@ LiveTaste relies on the SAFE manipulation of the Gustatory cortex (GC). The Gust
 
 # LiveTaste Pads 
 
-<img src="/img/livetaste_package.png" width="50%" />
+<img src="/img/livetaste_package.png" height="250px" />
 
 	LiveTaste pads are a state of the art bluetooth device, developed solely by the team at LiveTaste. The Pads themselves are small non reusable rubber devices that attach to the temple of the user. Each pad may produce enough taste (electrical signals) for a continuous use of 3 hours.
 
