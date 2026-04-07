@@ -14,12 +14,10 @@
   </head>
   <body>
     <header>
-      <div id="logo">
-        <img src="https://placehold.co/100">
-        <div class="header-text">
-            <p class="corpname">LIVETASTE</p>
-          <p class="tagline">Embrace every taste</p>
-        </div>
+      <img src="/img/logo.png" width="100px">
+      <div class="header-text">
+        <p class="corpname">LIVETASTE</p>
+        <p class="tagline">Embrace every taste</p>
       </div>
     <nav id="widenav">
       {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}

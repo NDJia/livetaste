@@ -28,3 +28,4 @@ npm-debug.log*
 ### Eleventy ###
 # ignore the local build folder _site
 _site/
+*.bak
