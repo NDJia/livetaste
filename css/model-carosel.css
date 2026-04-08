@@ -4,12 +4,14 @@
   display: flex;
   flex-wrap: nowrap;
   model-viewer {
-    animation: slide linear 20s infinite;
+    animation: slide ease-in-out 7s infinite;
     }
 }
 
 @keyframes slide {
   0% { transform: translateX(90vw); }
+  30% { transform: translateX(30vw); }
+  70% { transform: translateX(30vw); }
   100% { transform: translateX(-100vw); }
 }
 
