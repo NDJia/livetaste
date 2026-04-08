@@ -44,6 +44,7 @@ header {
   color: white;
   width: 100%;
   font-family: "Kavoon", "Noto Sans", sans-serif;
+
   #logo {
     display: flex;
     align-items: center;
@@ -65,14 +66,14 @@ header {
 
   nav {
     background-color: var(--light-bg, #fffae4);
-    @media (max-width: 640px) { display: none; }
-    position: sticky;
+    /* position: sticky;
     top: 0;
     height: 40px;
-    z-index: 10;
+    z-index: 10; */
     padding: 1% 10%;
     ul {
       display: flex;
+      align-items: center;
       padding: 0;
       margin: 0;
     li {
@@ -85,14 +86,6 @@ header {
       text-decoration: none;
       font-family: "Kavoon", sans-serif;
       font-size: 1.2rem;
-    }
-  
-  }
-  nav#mobilenav {
-    display: none;
-    @media (max-width: 640px) {
-      display: block;
-      position: static;
     }
   }
 }
@@ -110,9 +103,15 @@ main {
     padding: 0 3%;
     font-size: 1.6rem;
   }
+
+  video {
+    margin: 70px 20% 0;
+  }
+  
 }
 
 footer {
+  margin-top: 70px;
   padding: 1% 10% 40px;
   @media (max-width: 640px) { padding: 0 2%; }
   display: flex;
@@ -131,9 +130,9 @@ footer {
     margin: 0 0.5rem;
   }
   
-  #disclaimer {
+  /* #disclaimer {
 
-  }
+  } */
 
   #pagelinks {
     ul { margin: 0; padding: 0 }

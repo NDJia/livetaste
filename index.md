@@ -14,37 +14,28 @@ eleventyNavigation:
 	<a href="/img.livetaste_ad.webm">Download video</a>
 </video>
 
-## Innovation, Flavour, Technology
+**Innovation. Flavour. Technology.**
 
 At Livetaste, we push the boundaries and challenge the standards of the culinary industry.
-With humanitarian, animal-friendly livetaste pads, we are able to taste the flavour you love without worrying about animal or ecological harm; allowing you to indulge in your senses with none of the negative caloric side-effects.
 
-Livetaste: Embrace every taste.
+With humanitarian, animal-friendly Livetaste Pads, we are able to taste the flavour you love without worrying about animal or ecological harm; allowing you to indulge in your senses with none of the negative caloric side-effects.
 
-# LiveTaste News
-{% for n in news %}
-<article class="news">
+**Livetaste: Embrace every taste.**
 
-<img src="{{ n.img }}" width="50%" >
+# Get the App
 
-<p class="date">{{ n.date }}</p>
+Download the official LiveTaste app to connect your LiveTaste Pads to your smartphone, allowing you to experience all new tastes while browsing your social media feeds.
 
-## {{ n.headline }}
+<img src="/img/app_instructions.png"/>
 
-{{ n.excerpt }}
-</article>
-{% endfor %}
+## Download Now
 
-# Reviews
-{% for r in review %}
-<section class="review">
-<u>{{ r.stars }}</u>
+<img src="/img/appstore.svg" height="60px"/>
 
-<b>{{ r.name }}</b>
+<img src="/img/googleplay.svg" height="60px"/>
 
-{{ r.verified }}
 
-{{ r.review | safe }}
-</section>
-{% endfor %}
+
+
+
 

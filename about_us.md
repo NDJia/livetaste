@@ -1,5 +1,5 @@
 ---
-layout: main.njk
+layout: model-viewer-active.njk
 title: About Us
 eleventyNavigation:
   key: About Us
@@ -18,9 +18,11 @@ LiveTaste relies on the SAFE manipulation of the Gustatory cortex (GC). The Gust
 
 # LiveTaste Pads 
 
-<img src="/img/livetaste_package.png" height="250px" />
+<model-viewer src="{{ '/models/LiveTastePads.glb' | url }}" camera-controls touch-action="pan-y" auto-rotate style="margin-left: -1.5rem;width=200px;"></model-viewer>
 
-	LiveTaste pads are a state of the art bluetooth device, developed solely by the team at LiveTaste. The Pads themselves are small non reusable rubber devices that attach to the temple of the user. Each pad may produce enough taste (electrical signals) for a continuous use of 3 hours.
+<img src="/img/livetaste_package.png" height="250px" style="margin-left:1.5rem;"/>
+
+LiveTaste pads are a state of the art bluetooth device, developed solely by the team at LiveTaste. The Pads themselves are small non reusable rubber devices that attach to the temple of the user. Each pad may produce enough taste (electrical signals) for a continuous use of 3 hours.
 
 
 
